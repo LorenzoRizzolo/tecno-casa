@@ -1,0 +1,45 @@
+header{
+    padding: 10px;
+    width: 100%;
+    z-index: 500;
+    background-color: white;
+}
+
+.title{
+    color: green;
+    display: inline; 
+}
+.logo{
+    margin-right: 20px;
+    float: right;
+    height: 40px;
+}
+
+.card{
+    margin-top: 40px;
+    height: 230px !important;
+    background-color: rgb(19, 171, 19);
+    box-shadow: none !important;
+    text-align: left !important;
+}
+.card-content-padding{
+    color: white;
+}
+
+.casa{
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+}
+.card-red{
+    background-color: red;
+    box-shadow: none !important;
+    text-align: left !important;
+    height: 100px !important;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.open-popup{
+    width: 200px;
+}
