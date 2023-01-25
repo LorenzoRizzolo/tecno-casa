@@ -11,7 +11,7 @@
 
   <center>
     <Card expandable>
-      <CardContent bgColor="red" padding={false}>
+      <CardContent style="background-color: red;" padding={false}>
         <div class="card-red" style="height: 300px">
           <CardHeader textColor="white" class="display-block">
               <Icon f7="exclamationmark_triangle" />
