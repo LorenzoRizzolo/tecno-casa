@@ -301,12 +301,54 @@
         </div>
       </CardContent>
     </Card>
+
+    <Card expandable>
+      <CardContent padding={false}>
+        <div class="card" style="height: 300px">
+          <CardHeader textColor="white" class="display-block">
+            Civico 680<br>
+            <small>Villa - <b>Libera</b></small> <br>
+            <small style="opacity: 0.7">Lussuoso <br> <i>Prezzo: </i></small><b>1.815.000 </b>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          <img class="casa" src="case/680.jpg" alt="c.543"><br>
+          Lussuosa villa in centro città, completa di piscina e bellissimo garage. Imperdibile !
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card expandable>
+      <CardContent padding={false}>
+        <div class="card" style="height: 300px">
+          <CardHeader textColor="white" class="display-block">
+            Civico 693<br>
+            <small>Villa - <b>Occupata</b></small> <br>
+            <small style="opacity: 0.7">Lussuoso <br> <i>Prezzo: </i></small><b>1.000.000 </b>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          <img class="casa" src="case/693.jpg" alt="c.543"><br>
+          Lussuosa villa in centro città, completa di piscina con una bellissima entrata. Imperdibile !
+        </div>
+      </CardContent>
+    </Card>
   </center>
   
 </Page>
 
 
 <script>
+  var n_case = 11
+  var dati_case = [
+
+  ]
+
+  for(let i=0 ; i<n_case ; i++ ){
+
+  }
   
   import {
     Accordion, 
